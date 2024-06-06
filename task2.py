@@ -19,3 +19,18 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+n = input("enter a number")
+try:
+  n = int(n)
+  print(n)
+  n = round(n,2)
+  r = 1/n
+except: 
+    print(f"the reciprocal of {n} does not work")
+
+
+
+
+
+
+
